@@ -30,7 +30,22 @@
     text-decoration: none;
 }
 .drop-menu a:hover{
-    color:#00BFFF;
+    color:#08BBF5;
+}
+.fixo2{
+    position: fixed;
+    top: 1%;
+    right: 1%;
+    z-index: 1000; 
+    background-color: transparent;
+    display: flex;   
+}
+.fixo2 strong{
+    color:#08BBF5;
+}
+.fixo2 a{
+    color: #DAA520;
+    text-decoration: none;
 }
 
 header{
@@ -50,7 +65,7 @@ header h1{
     text-align: center;
 }
 header h1 strong{
-    color:#00BFFF;
+    color:#08BBF5;
 }
 header img{
     width: 13%;
@@ -77,7 +92,7 @@ section p{
     background-color: #1c1c1c;
 }
 #problema h1{
-    color: #00BFFF;
+    color: #08BBF5;
     font-size: 30px;
     width: 550px;
 }
@@ -89,7 +104,7 @@ section p{
     color:#ADD8E6;
 }
 #problema p strong{
-    color: #00BFFF;
+    color: #08BBF5;
 }
 #problema .imagens{
     height: 160px;
@@ -97,7 +112,7 @@ section p{
 }
 #residuo_marinho{
     margin-left: 20px;
-    border-color:#00BFFF;
+    border-color:#08BBF5;
 }
 #tartaruga{
     border-color:#ADD8E6;
@@ -143,7 +158,7 @@ section p{
 }
 #prototipo2{
     margin-left: 60px;
-    border-color: #00BFFF;
+    border-color: #08BBF5;
 }
 #prototipo3{
     border-color: #203636;
@@ -164,7 +179,7 @@ section p{
     font-size: 35px;
 }
 #objetivos .inicial h1 strong{
-    color: #00BFFF;
+    color: #08BBF5;
 }
 #objetivos .inicial p{
     padding-top: 15px;
@@ -184,7 +199,7 @@ section p{
     padding-bottom: 20px;
 }
 .highlight-p1 p:first-of-type {
-    color:#00BFFF;
+    color:#08BBF5;
     font-size:19px; 
 }
 .highlight-p2 p:last-of-type {
@@ -257,7 +272,7 @@ section p{
     font-size: 35px;
 }
 #beneficios .inicial h1 strong{
-    color: #00BFFF;
+    color: #08BBF5;
 }
 #beneficios .inicial p{
     padding-top: 15px;
@@ -281,7 +296,7 @@ section p{
     width: 550px;
 }
 #ajudaCotidiana .inicial h1 strong{
-    color: #00BFFF;
+    color: #08BBF5;
 }
 #ajudaCotidiana .inicial p{
     padding-top: 15px;
@@ -299,7 +314,7 @@ section p{
         padding-bottom: 20px;
 }
 .ajuda-highlight-p p:only-of-type{
-    color:#00BFFF;
+    color:#08BBF5;
     font-size:19px; 
 }
 .ajuda-highlight-ul ul:only-of-type{
@@ -307,10 +322,10 @@ section p{
     font-size:17px;
 }
 .ajuda-highlight-ul ul:only-of-type strong{
-    color:#00BFFF;
+    color:#08BBF5;
 }
 .ajuda-highlight-ul ul:only-of-type li::marker{
-    color:#00BFFF;
+    color:#08BBF5;
 }
 footer{
     height: 700px;
@@ -334,4 +349,11 @@ footer img{
     height: 50px;
     width: 50px;
     border-radius:50%;
+}
+footer a{
+    text-decoration: none;
+    color: #DAA520;
+}
+footer a strong{
+    color:#08BBF5;
 }
